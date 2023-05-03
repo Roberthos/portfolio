@@ -1,0 +1,48 @@
+.container_experiencia {
+  display: grid;
+}
+.cards_experiencia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+.card_experience {
+  display: grid;
+  grid-template-columns: 50% auto;
+  padding: 40px;
+  gap: 1.7rem;
+}
+
+.card_experiencia {
+  border-radius: 1rem;
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  padding: 2rem;
+}
+.card_experiencia h2 {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.card_experiencia:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+.card_experiencia h5 {
+  font-size: 1rem;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.card_experiencia small {
+  font-size: 0.9 rem;
+  color: var(--color-light);
+  text-align: center;
+}
+.experience_icon {
+  color: var(--color-primary);
+  gap: 0.8rem;
+  margin-right: 10px;
+  font-size: medium;
+}
