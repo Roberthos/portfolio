@@ -96,6 +96,10 @@ header {
     font-size: large;
     justify-content: center;
   }
+  .header_socials::after,
+  .header_socials::before {
+    display: none;
+  }
 }
 
 /* ========== MEDIA QUERIES (médio) ===========*/

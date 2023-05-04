@@ -58,6 +58,13 @@ const Experience = () => {
                 </h2>
                 <small>Básico</small>
               </div>
+              <div>
+                <h2>
+                  <GoVerified className="experience_icon" />
+                  TypeScript
+                </h2>
+                <small>Intermediário</small>
+              </div>
             </div>
           </article>
         </div>
