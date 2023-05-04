@@ -42,3 +42,29 @@ textarea {
   display: flex;
   justify-content: center;
 }
+/* ========== MEDIA QUERIES (médio) ===========*/
+@media screen and (max-width: 1024px) {
+  .container.contact_container {
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-bottom: 200px;
+    justify-content: center;
+  }
+  .contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+}
+
+/* ========== MEDIA QUERIES (médio) ===========*/
+@media screen and (max-width: 600px) {
+  .contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

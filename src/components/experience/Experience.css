@@ -46,3 +46,18 @@
   margin-right: 10px;
   font-size: medium;
 }
+
+/* ========== MEDIA QUERIES (médio) ===========*/
+@media screen and (max-width: 1024px) {
+  .cards_experiencia {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* ========== MEDIA QUERIES (médio) ===========*/
+@media screen and (max-width: 600px) {
+  .cards_experiencia {
+    display: flex;
+    flex-direction: column;
+  }
+}

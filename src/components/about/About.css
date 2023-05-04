@@ -62,6 +62,25 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
+  .about_me {
+    width: 230px;
+    height: 243px;
+    border-radius: 2rem;
+    transform: rotate(-10deg);
+    transition: var(--transition);
+    aspect-ratio: 1/1;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+  }
+  .about_me-image {
+    width: 238px;
+    height: 248px;
+    border-radius: 2rem;
+  }
   .about_container {
     grid-template-columns: 1fr;
     gap: 0;
