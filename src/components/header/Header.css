@@ -110,6 +110,10 @@ header {
     display: flex;
     flex-direction: column;
   }
+  .header_socials::after,
+  .header_socials::before {
+    display: none;
+  }
   .header_socials {
     display: flex;
     flex-direction: row;
