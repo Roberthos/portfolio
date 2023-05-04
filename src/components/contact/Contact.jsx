@@ -7,15 +7,19 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault();
+    try {
+      e.preventDefault();
 
-    emailjs.sendForm(
-      "service_rjce6sh",
-      "template_pldqnhp",
-      form.current,
-      "5efaKNiMt0WN_0FQ3"
-    );
-    e.target.reset();
+      emailjs.sendForm(
+        "service_rjce6sh",
+        "template_pldqnhp",
+        form.current,
+        "5efaKNiMt0WN_0FQ3"
+      );
+      e.target.reset();
+    } catch (error) {
+      console.log(error);
+    }
   };
   return (
     <section id="contact">
@@ -41,7 +45,6 @@ const Contact = () => {
           <input type="text" email="email" placeholder="Email" required />
           <textarea
             name="message"
-            id=""
             rows="10"
             placeholder="Sua mensagem"
             required

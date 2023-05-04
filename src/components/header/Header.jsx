@@ -2,11 +2,11 @@ import React from "react";
 import "./Header.css";
 import CVD from "./CVD";
 import progi from "../../assets/progi.png";
-
+import HeaderSocials from "./HeaderSocials";
 const Header = () => {
   return (
     <header>
-      <div></div>
+      <HeaderSocials />
       <div className=" container header_containerx">
         <div className="container header_container">
           <h5>Oi, eu sou o</h5>
@@ -23,13 +23,7 @@ const Header = () => {
           <CVD />
         </div>
         <div className=" header_containerx">
-          <div>
-            <img src={progi} alt="" />
-          </div>
-
-          <a href="#contact" className="scroll_down">
-            Scroll Down
-          </a>
+          <img src={progi} alt="" />
         </div>
       </div>
     </header>
